@@ -81,3 +81,16 @@ gap: 25px;
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
 }
+
+.banner_jogo {
+  width: 100%; /* Garante 100% da largura da tela do navegador */
+  height: 700px; /* Define uma altura fixa para o banner */
+  object-fit: cover; /* Recorta as sobras sem esticar nem achatar a imagem */
+  object-position: top center; /* Foca nos personagens na parte de cima */
+  display: block;
+}
+
+
+
+
+
