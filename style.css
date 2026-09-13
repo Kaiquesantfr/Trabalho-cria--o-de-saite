@@ -48,7 +48,7 @@ section {
   padding: 50px 30px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 80px;
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #ffffff;
@@ -58,7 +58,7 @@ h1 {
 
 p {
   color: #8f98a0; 
-  font-size: 20px;
+  font-size: 35px;
   margin-bottom: 20px;
   line-height: 1.5; 
 }
@@ -83,13 +83,50 @@ gap: 25px;
 }
 
 .banner_jogo {
-  width: 100%; /* Garante 100% da largura da tela do navegador */
-  height: 700px; /* Define uma altura fixa para o banner */
-  object-fit: cover; /* Recorta as sobras sem esticar nem achatar a imagem */
-  object-position: top center; /* Foca nos personagens na parte de cima */
+  width: 100%; 
+  height: 1200px;
+  object-fit: cover; 
+  object-position: top center; 
   display: block;
 }
 
+.barra_steam {
+  width: 100%;
+  background-color: #2d486a;
+   display: flex;
+  padding: 20px 80px;
+  gap: 77px; 
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+ 
+}
+
+.status span {
+  color: #7c8b97; /* Cor cinza do rótulo */
+  font-size: 45px;
+  font-weight: bold;
+  display: block;
+  letter-spacing: 1px;
+}
+.status p {
+color: #c6d4df; 
+  font-size: 29px;
+  margin-bottom: 0; 
+  margin-top: 4px;
+}
+
+.conquistas{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 30px;
+
+}
+
+.conquistas img{
+  width: 100%;
+ max-width: 5000px; 
+ 
+}
 
 
 
